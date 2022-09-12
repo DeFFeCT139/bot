@@ -29,7 +29,7 @@ function BotCode() {
     let time = dateS.getTime();
     bot.on('message', msg => {
             let chatName = msg.channel.name 
-            if (chatName == '456456445645456456456456456') {
+            if (chatName == 'рекрутинг') {
                 if ((msg.author.id === '254697346275868673') ||  (msg.author.id === '292960305649156096') ||  (msg.author.id === '499627043609378816') ||  (msg.author.id === '308228415016927233') ||  (msg.author.id === '254697346275868673')) {
                 } else {
                     setInterval(()=>{
@@ -40,7 +40,7 @@ function BotCode() {
                         let data = snapshot.val();
                         dateS = new Date()
                         let timeMes = dateS.getTime();
-                        let SixDay = 10000 + time
+                        let SixDay = 518400000 + time
                         if (timeMes <= SixDay) {
                             data = snapshot.val();
                             msg.delete()
