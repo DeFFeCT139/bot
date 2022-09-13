@@ -29,7 +29,7 @@ function BotCode() {
     let time = dateS.getTime();
     bot.on('message', msg => {
             let chatName = msg.channel.name 
-            if (chatName == 'рекрутинг') {
+            if (chatName == '23123123123123123123123123123') {
                 if ((msg.author.id === '254697346275868673') ||  (msg.author.id === '292960305649156096') ||  (msg.author.id === '499627043609378816') ||  (msg.author.id === '308228415016927233') ||  (msg.author.id === '254697346275868673')) {
                 } else {
                     setInterval(()=>{
