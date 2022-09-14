@@ -40,7 +40,7 @@ function BotCode() {
                         let data = snapshot.val();
                         dateS = new Date()
                         let timeMes = dateS.getTime();
-                        let SixDay = 10000 + data
+                        let SixDay = 518400000 + data
                         if (timeMes <= SixDay) {
                             data = snapshot.val();
                             msg.delete()
