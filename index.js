@@ -29,8 +29,14 @@ function BotCode() {
     let time = dateS.getTime();
     bot.on('message', msg => {
             let chatName = msg.channel.name 
-            if (chatName == 'рекрутинг') {
-                if ((msg.author.id === '254697346275868673') ||  (msg.author.id === '292960305649156096') ||  (msg.author.id === '499627043609378816') ||  (msg.author.id === '308228415016927233') ||  (msg.author.id === '254697346275868673')) {
+            let idrol = msg.member
+            if (idrol == null) {
+                idrol = {_roles:['2342342342', '2342342343']}
+            }
+            let user  = idrol._roles.find(item => item == '950468824010985562') 
+            
+            if (chatName == 'основной') {
+                if (user === '1017170126530936892' ){
                 } else {
                     setInterval(()=>{
                         dateS = new Date()
