@@ -35,7 +35,7 @@ function BotCode() {
             }
             let user  = idrol._roles.find(item => item == '950468824010985562') 
             
-            if (chatName == 'основной') {
+            if (chatName == 'рекрутинг') {
                 if (user === '1017170126530936892' ){
                 } else {
                     setInterval(()=>{
