@@ -65,6 +65,6 @@ function BotCode() {
                 
             }
     });
-    bot.login(process.env.BOT_TOKEN);
+    bot.login('MTAxOTYxOTIzNzY1ODEwMzg1OA.GqT9YI.3cJc5rUAA1H29YZTit8HYbf1I0lR-Q2cGAayjo');
 }
 BotCode();
